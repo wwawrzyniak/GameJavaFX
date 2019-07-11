@@ -1,0 +1,12 @@
+Button {
+    -fx-background-color: #b3c100;
+    -fx-border: none;
+    -fx-width:172px;
+    -fx-height:59px;
+    -fx-color:#b3c100;
+    -fx-padding: 10px 15px;
+    -fx-text-align: center;
+    -fx-display: inline-block;
+    -fx-font-family: "Bodoni MT Black";
+    -fx-font-size: 20px;
+    -fx-text-fill: #34576c;}

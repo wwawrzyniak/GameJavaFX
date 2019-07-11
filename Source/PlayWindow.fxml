@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="300.0" style="-fx-background-color: #34576C;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TheGame">
+    <children>
+      <GridPane fx:id="backgroundPane" minHeight="530.0" minWidth="300.0" prefHeight="530.0" prefWidth="300.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+        </rowConstraints>
+         <children>
+            <ImageView fitHeight="230.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="230.0" fitWidth="160.0" layoutX="10.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../Assets/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="230.0" fitWidth="160.0" layoutX="10.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../Assets/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="230.0" fitWidth="160.0" layoutX="160.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../Assets/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="230.0" fitWidth="160.0" layoutX="160.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../Assets/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="230.0" fitWidth="160.0" layoutX="10.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../Assets/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <GridPane fx:id="backgroundPane2" layoutY="-530.0" minHeight="530.0" minWidth="300.0" prefHeight="530.0" prefWidth="300.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+         </rowConstraints>
+         <children>
+            <ImageView fitHeight="230.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="230.0" fitWidth="160.0" layoutX="10.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../Assets/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="235.0" fitWidth="153.0" layoutX="10.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../Assets/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="230.0" fitWidth="239.0" layoutX="160.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../Assets/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="237.0" fitWidth="159.0" layoutX="160.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../Assets/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="231.0" fitWidth="171.0" layoutX="10.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../Assets/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <ImageView fx:id="starG" fitHeight="30.0" fitWidth="30.0" layoutX="-1.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/starGold.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="meteorOne" fitHeight="60.0" fitWidth="51.0" layoutX="385.0" layoutY="-26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/spaceMeteors_003.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="theUfo" fitHeight="60.0" fitWidth="60.0" focusTraversable="true" layoutX="112.0" layoutY="444.0" onKeyPressed="#clickHandler" onKeyReleased="#clickRelease" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/shipPink_manned.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="meteorTwo" fitHeight="44.0" fitWidth="36.0" layoutX="-47.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/spaceMeteors_001.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="rect" arcHeight="5.0" arcWidth="5.0" fill="#b3c100" height="100.0" stroke="BLACK" strokeType="INSIDE" width="300.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <HBox alignment="CENTER" layoutY="-11.0" prefHeight="70.0" prefWidth="300.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="min" alignment="CENTER" contentDisplay="CENTER" prefHeight="130.0" prefWidth="70.0" text="00">
+               <font>
+                  <Font name="Bodoni MT Black" size="40.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="5.0" />
+               </padding>
+            </Label>
+            <Label fx:id="dwukropek" alignment="CENTER" contentDisplay="CENTER" layoutX="60.0" layoutY="10.0" prefHeight="52.0" prefWidth="52.0" text=":">
+               <font>
+                  <Font name="Bodoni MT Black" size="40.0" />
+               </font>
+               <padding>
+                  <Insets bottom="15.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets bottom="10.0" />
+               </HBox.margin>
+            </Label>
+             <Label fx:id="sec" alignment="CENTER" contentDisplay="CENTER" prefHeight="130.0" prefWidth="70.0" text=" 00">
+                 <font>
+                     <Font name="Bodoni MT Black" size="40.0" />
+                 </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="5.0" />
+               </padding>
+             </Label>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutY="187.0" prefHeight="200.0" prefWidth="300.0">
+         <children>
+            <Button fx:id="endbutton2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ChangeToPlayWindow" prefHeight="39.0" prefWidth="172.0" text="AGAIN" textFill="#34576c">
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="endbutton1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ChangeToMainWindow" prefHeight="39.0" prefWidth="172.0" stylesheets="@style.css" text="BACK" textFill="#34576c">
+               <font>
+                  <Font name="Bodoni MT Black" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" layoutX="1.0" layoutY="52.0" prefHeight="39.0" prefWidth="300.0">
+         <children>
+            <Label fx:id="score" alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="51.0" prefWidth="110.0" text="">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="50.0" />
+               </HBox.margin>
+            </Label>
+            <ImageView fx:id="heart1" fitHeight="58.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/shipPink_damage.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="heart2" fitHeight="51.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/shipPink_damage.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="heart3" fitHeight="51.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/shipPink_damage.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+    </children>
+</AnchorPane>
