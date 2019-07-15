@@ -11,8 +11,8 @@ import javafx.stage.Stage;
 import java.io.File;
 
 public class Main extends Application {
-    public static  int SCREEN_WIDTH = 290;
-    public static int SCREEN_HEIGHT = 530;
+    int SCREEN_WIDTH = 290;
+    int SCREEN_HEIGHT = 530;
     final String uriString = new File("src\\sample\\02.mp3").toURI().toString();
     final MediaPlayer player = new MediaPlayer( new Media(uriString));
     public static Stage stage;
