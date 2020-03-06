@@ -2,7 +2,7 @@
 Lesson 15
 
 Project II
-Create an application which allows to do the puzzle:
+Create an application which allows to do the puzzle (or something of similar difficulty):
 
 Windows' specification
 First window: Main menu which allows to start the game.
