@@ -1,15 +1,17 @@
 # GameJavaFX
+
+## Watch the video presenting how my first game works
 Lesson 15
 
 Project II
 Create an application which allows to do the puzzle (or something of similar difficulty):
 
-Windows' specification
+- Windows' specification
 First window: Main menu which allows to start the game.
 
-Game window: divide the window using criss cross (m×n). One rectangle needs to be empty, the rest is filled with parts of an image. User can change the location of a puzzle by switching it with the empty spot (one can do this by pressing buttons or using mouse etc.). The window contains a timer which counts a time from the start until the puzzle is solved. Important: to receive the highest grade, the program has to cut the base image into smaller parts.
+- Game window: divide the window using criss cross (m×n). One rectangle needs to be empty, the rest is filled with parts of an image. User can change the location of a puzzle by switching it with the empty spot (one can do this by pressing buttons or using mouse etc.). The window contains a timer which counts a time from the start until the puzzle is solved. Important: to receive the highest grade, the program has to cut the base image into smaller parts.
 
-Window with information about the previous games (time included) (needs to be saved to a file).
+- Window with information about the previous games (time included) (needs to be saved to a file).
 
 Grading
 Project grade consists of:
